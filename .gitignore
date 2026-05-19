@@ -1,0 +1,103 @@
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.ipynb_checkpoints/
+
+# ============================================================
+# CONFIGURACIÓN LOCAL
+# ============================================================
+
+# Configuración con rutas personales
+src/config.py
+
+# Variables de entorno
+.env
+.env.*
+
+# ============================================================
+# DATOS MÉDICOS / DATASETS
+# ============================================================
+
+datos/
+data/
+datasets/
+dataset_liver_colab_definitivo/
+volumes_npz/
+
+*.npz
+*.npy
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+*.mha
+*.mhd
+*.raw
+
+# ============================================================
+# MODELOS ENTRENADOS / PESOS
+# ============================================================
+
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+models_weights/
+checkpoints/
+trained_models/
+
+# ============================================================
+# SALIDAS DE INFERENCIA
+# ============================================================
+
+outputs/
+results/
+runs/
+
+*.json
+*.png
+*.jpg
+*.jpeg
+
+# Permitimos archivos de documentación si hiciera falta
+!README.md
+
+# ============================================================
+# STREAMLIT
+# ============================================================
+
+.streamlit/secrets.toml
+
+# ============================================================
+# SISTEMA OPERATIVO / EDITORES
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+
+# ============================================================
+# LOGS
+# ============================================================
+
+*.log
+logs/
