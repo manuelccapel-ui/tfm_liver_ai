@@ -100,4 +100,8 @@ desktop.ini
 # ============================================================
 
 *.log
-logs/
+logs/temp_uploads/ 
+*.nii 
+*.nii.gz 
+*.dcm 
+*.dicom 

@@ -4,4 +4,4 @@ matplotlib
 streamlit
 
 torch
-torchvision
+torchvisionSimpleITK 
